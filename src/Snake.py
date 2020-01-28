@@ -3,7 +3,7 @@ import pygame
 import random
 import sys
 
-# Global variables ar creatd 
+# Global variables are creatd 
 pygame.init()
 font = pygame.font.SysFont(None, 25)
 screen = pygame.display.set_mode((500, 500))
@@ -191,6 +191,7 @@ def main():
         clock.tick(24)
 
 
+#Runs the whole game
 welcomescreen()
 
 
